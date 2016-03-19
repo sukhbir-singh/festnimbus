@@ -1,4 +1,4 @@
-package com.appteam.nimbus;
+package com.appteam.nimbus.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,6 +18,12 @@ import com.android.volley.ServerError;
 import com.android.volley.TimeoutError;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.appteam.nimbus.Connection;
+import com.appteam.nimbus.app.MyApplication;
+import com.appteam.nimbus.MySingleton;
+import com.appteam.nimbus.PersonalData;
+import com.appteam.nimbus.R;
+import com.appteam.nimbus.helper.Utils;
 
 import net.steamcrafted.loadtoast.LoadToast;
 
